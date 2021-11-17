@@ -119,6 +119,9 @@ export default {
             theme () {
                 return this.$store.getters.getTheme
             },
+            getCurrentUser(){
+                return this.$store.getters.getUser
+            }
         }
       
 }
